@@ -1,14 +1,44 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: green;
 }
 
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
+.jeff-pic {
+  height: 200px;
+  width: 200px;
+}
+.cake-1-pic {
+  height: 200px;
+  width: 200px;
+}
+.cake-2-pic {
+  height: 200px;
+  width: 200px;
+}
+.cupcake-1-pic {
+  height: 200px;
+  width: 200px;
+}
+.cupcake-2-pic {
+  height: 200px;
+  width: 200px;
+}
+.loaf-pic {
+  height: 200px;
+  width: 200px;
+}
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cs1300-gallery {
+  display: flex;
+  align-items: center;
 }
